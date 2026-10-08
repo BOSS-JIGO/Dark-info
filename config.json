@@ -1,94 +1,19 @@
 {
-  "config_version": 1,
+  "config_version": 7,
   "enabled": true,
-
-  "maintenance": {
-    "enabled": true,
-    "title": "Maintenance Mode",
-    "message": "Service is temporarily unavailable. Please try again later.",
-    "show_retry": true
-  },
-
-  "app": {
-    "name": "Dark-Info",
-    "version": "1.0.0",
-    "announcement": "",
-    "force_update": false,
-    "min_supported_version": "1.0.0",
-    "update_url": ""
-  },
-
-  "website": {
-    "url": "https://dark-info.si",
-    "allowed_domains": [
-      "dark-info.site"
-    ],
-    "open_external_links": false
-  },
-
-  "branding": {
-    "logo_url": "",
-    "splash_logo_url": "",
-    "favicon_url": ""
-  },
-
-  "theme": {
-    "mode": "dark",
-    "primary_color": "#6C63FF",
-    "secondary_color": "#00C2FF",
-    "background_color": "#0B0F19",
-    "surface_color": "#151B2B",
-    "text_color": "#FFFFFF",
-    "button_color": "#6C63FF",
-    "button_text_color": "#FFFFFF",
-    "corner_radius": 16
-  },
-
-  "ui": {
-    "show_toolbar": false,
-    "show_refresh": true,
-    "show_back": true,
-    "show_home": false,
-    "show_loading": true,
-    "show_offline_screen": true,
-    "pull_to_refresh": true
-  },
-
-  "buttons": {
-    "primary": {
-      "enabled": true,
-      "text": "Open Website",
-      "url": ""
-    },
-    "secondary": {
-      "enabled": false,
-      "text": "Help",
-      "url": ""
-    }
-  },
-
-  "features": {
-    "remote_config": true,
-    "remote_theme": true,
-    "remote_logo": true,
-    "remote_buttons": true,
-    "announcements": true,
-    "offline_fallback": true,
-    "external_links": false,
-    "cache": true
-  },
-
-  "cache": {
-    "enabled": true,
-    "max_age_hours": 24,
-    "use_last_known_good_config": true
-  },
-
-  "webview": {
-    "javascript": true,
-    "dom_storage": true,
-    "zoom": false,
-    "multiple_windows": false,
-    "clear_cache_on_start": false
-  }
+  "app_name": "Dark-Info",
+  "app_version": 7,
+  "force_update": false,
+  "min_version": 1,
+  "update_url": "",
+  "website_url": "https://dark-info.site/demo/index.php",
+  "maintenance": true,
+  "maintenance_message": "Service is temporarily unavailable. Please try again shortly.",
+  "theme": "dark",
+  "accent": "#7C5CFF",
+  "accent2": "#00D4FF",
+  "logo_url": "",
+  "announcement": "",
+  "announcement_url": "",
+  "buttons": []
 }
