@@ -1,67 +1,94 @@
 {
-  "config_version": 4,
+  "config_version": 1,
   "enabled": true,
+
+  "maintenance": {
+    "enabled": false,
+    "title": "Maintenance Mode",
+    "message": "Service is temporarily unavailable. Please try again later.",
+    "show_retry": true
+  },
+
   "app": {
     "name": "Dark-Info",
-    "version": "4.0.0",
-    "min_supported_app_version": 1,
-    "force_update": false,
-    "update_url": "",
+    "version": "1.0.0",
     "announcement": "",
-    "announcement_url": ""
+    "force_update": false,
+    "min_supported_version": "1.0.0",
+    "update_url": ""
   },
+
   "website": {
     "url": "https://dark-info.site/demo/index.php",
     "allowed_domains": [
       "dark-info.site"
     ],
-    "allow_subdomains": true
+    "open_external_links": false
   },
-  "maintenance": {
-    "enabled": false,
-    "title": "Maintenance Mode",
-    "message": "Service is temporarily unavailable. Please try again later.",
-    "retry_button": true
-  },
+
   "branding": {
     "logo_url": "",
-    "background_logo_url": ""
+    "splash_logo_url": "",
+    "favicon_url": ""
   },
+
   "theme": {
     "mode": "dark",
-    "primary": "#7C5CFF",
-    "secondary": "#00D4FF",
-    "background": "#070811",
-    "surface": "#101323",
-    "text": "#FFFFFF",
-    "muted_text": "#B9BED0",
-    "button_text": "#FFFFFF",
-    "radius": 22
+    "primary_color": "#6C63FF",
+    "secondary_color": "#00C2FF",
+    "background_color": "#0B0F19",
+    "surface_color": "#151B2B",
+    "text_color": "#FFFFFF",
+    "button_color": "#6C63FF",
+    "button_text_color": "#FFFFFF",
+    "corner_radius": 16
   },
+
   "ui": {
+    "show_toolbar": false,
+    "show_refresh": true,
+    "show_back": true,
+    "show_home": false,
     "show_loading": true,
-    "show_offline": true,
-    "show_retry": true,
-    "pull_to_refresh": false,
-    "inject_theme_css": false,
-    "custom_css": ""
+    "show_offline_screen": true,
+    "pull_to_refresh": true
   },
-  "buttons": [
-    {
+
+  "buttons": {
+    "primary": {
+      "enabled": true,
+      "text": "Open Website",
+      "url": ""
+    },
+    "secondary": {
       "enabled": false,
-      "text": "Open",
-      "url": "",
-      "external": true
+      "text": "Help",
+      "url": ""
     }
-  ],
-  "security": {
-    "https_only": true,
-    "block_unknown_website_domains": true,
-    "allow_external_links": false
   },
+
+  "features": {
+    "remote_config": true,
+    "remote_theme": true,
+    "remote_logo": true,
+    "remote_buttons": true,
+    "announcements": true,
+    "offline_fallback": true,
+    "external_links": false,
+    "cache": true
+  },
+
   "cache": {
     "enabled": true,
-    "max_age_hours": 168,
+    "max_age_hours": 24,
     "use_last_known_good_config": true
+  },
+
+  "webview": {
+    "javascript": true,
+    "dom_storage": true,
+    "zoom": false,
+    "multiple_windows": false,
+    "clear_cache_on_start": false
   }
 }
