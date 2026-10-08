@@ -3,7 +3,7 @@
   "enabled": true,
 
   "maintenance": {
-    "enabled": false,
+    "enabled": true,
     "title": "Maintenance Mode",
     "message": "Service is temporarily unavailable. Please try again later.",
     "show_retry": true
