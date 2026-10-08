@@ -1,6 +1,6 @@
 {
   "config_version": 1,
-  "enabled": true,
+  "enabled": false,
   "maintenance": {
     "enabled": false,
     "title": "Dark-Info Maintenance",
