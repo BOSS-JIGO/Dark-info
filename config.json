@@ -1,1 +1,29 @@
-
+{
+  "config_version": 1,
+  "enabled": true,
+  "maintenance": {
+    "enabled": false,
+    "title": "Dark-Info Maintenance",
+    "message": "We are updating the service. Please try again shortly."
+  },
+  "website": {
+    "url": "https://dark-info.site/demo/index.php"
+  },
+  "branding": {
+    "app_name": "Dark-Info",
+    "logo_url": ""
+  },
+  "theme": {
+    "background": "#080A12",
+    "surface": "#141827",
+    "primary": "#7C5CFF",
+    "text": "#FFFFFF",
+    "muted": "#B9BED0"
+  },
+  "announcement": {
+    "enabled": false,
+    "message": "",
+    "url": ""
+  },
+  "poll_seconds": 15
+}
