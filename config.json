@@ -1,29 +1,20 @@
 {
-  "config_version": 1,
-  "enabled": false,
-  "maintenance": {
-    "enabled": false,
-    "title": "Dark-Info Maintenance",
-    "message": "We are updating the service. Please try again shortly."
-  },
-  "website": {
-    "url": "https://dark-info.site/demo/index.php"
-  },
-  "branding": {
-    "app_name": "Dark-Info",
-    "logo_url": ""
-  },
-  "theme": {
-    "background": "#080A12",
-    "surface": "#141827",
-    "primary": "#7C5CFF",
-    "text": "#FFFFFF",
-    "muted": "#B9BED0"
-  },
-  "announcement": {
-    "enabled": false,
-    "message": "",
-    "url": ""
-  },
-  "poll_seconds": 15
+  "config_version": 2,
+  "enabled": true,
+  "maintenance": false,
+  "maintenance_message": "App maintenance chal raha hai. Kripya thodi der baad dobara try karein.",
+  "website_url": "https://dark-info.site/demo/index.php",
+  "app_name": "Dark-Info",
+  "app_version": 8,
+  "force_update": false,
+  "min_version": 1,
+  "update_url": "",
+  "theme": "dark",
+  "accent": "#7C5CFF",
+  "accent2": "#00D4FF",
+  "logo_url": "",
+  "announcement": "",
+  "announcement_url": "",
+  "poll_seconds": 15,
+  "buttons": []
 }
